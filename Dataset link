@@ -1,1 +1,6 @@
-https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?re-source=download
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("mlg-ulb/creditcardfraud")
+
+print("Path to dataset files:", path)
