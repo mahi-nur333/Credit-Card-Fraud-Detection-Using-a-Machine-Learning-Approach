@@ -34,20 +34,20 @@ This is a **binary classification problem**, where the goal is to predict whethe
 
 We evaluated and selected the following machine learning algorithms:
 
-#### ✅ Logistic Regression
+#### Logistic Regression
 Well-suited for binary classification
 
 Performs well with large datasets
 
 Outputs probability scores, which helps in understanding the model's confidence
 
-#### ✅ Random Forest
+#### Random Forest
 
 * Handles imbalanced data better than simple models
 * Reduces overfitting through ensemble learning
 * Performs well on both accuracy and recall
 
-#### ❌ Not Selected:
+#### Not Selected:
 
 * **Decision Trees**: Prone to overfitting and poor generalization on noisy or imbalanced datasets
 * **SVM**: Not suitable for highly imbalanced datasets without significant tuning
@@ -62,25 +62,25 @@ Outputs probability scores, which helps in understanding the model's confidence
 | Test Accuracy             | 99.98%   |
 | Cross-Validation Accuracy | \~80.09% |
 
-> ⚠️ Cross-validation accuracy reveals some overfitting. Improvements can be made by tuning hyperparameters, using resampling techniques (SMOTE, undersampling), or feature engineering.
+> Cross-validation accuracy reveals some overfitting. Improvements can be made by tuning hyperparameters, using resampling techniques (SMOTE, undersampling), or feature engineering.
 
 ---
 
 ### 6. Related Research paper on this dataset
 
-#### 📚 \[1] Adaptive Machine Learning for Credit Card Fraud Detection (PhD Thesis)
+####  \[1] Adaptive Machine Learning for Credit Card Fraud Detection (PhD Thesis)
 [1] Dal Pozzolo, Andrea, “Adaptive Machine learning for credit card fraud detection” ULB MLG PhD thesis (supervised by G, Bontempi). http://di.ulb.ac.be/map/adalpozz/pdf/Dalpoz-zolo2015PhD.pdf
 
 * Author: Andrea Dal Pozzolo
 * Focused on class imbalance handling using undersampling and Random Forest
 
-#### 📚 \[2] Analysis of Credit Card Fraud Detection (2021)
+#### \[2] Analysis of Credit Card Fraud Detection (2021)
 [2] M. K. R. Mallidi and Y. Zagabathuni, "Analysis of credit card fraud detection using machine learning models on balanced and imbalanced datasets," Int. J. Emerging TrendsEng. Res., vol.9, no.7, pp. 846–852, Jul. 2021. https://doi.org/10.30534/ijeter/2021/02972021
 
 * Algorithms tested: LightGBM, AdaBoost, Random Forest
 * AdaBoost had highest accuracy (96.13%), LightGBM highest precision (98.68%)
 
-#### 📚 \[3] Credit Card Fraud Detection using ML (IJC-GM 2021)
+#### \[3] Credit Card Fraud Detection using ML (IJC-GM 2021)
 [3] V. Sellam, P. Tushar, G. Rohit, and S. Sanyam, "Credit card fraud detection using machine learning," Indian Journal of Computer Graphics and Multimedia, vol. 1, no. 1, pp. 16, Feb. 2021. [Online]. Available: www.ijcgm.latticescipub.com. Retrieval Number: A1003011121/2021©LSP.
 
 * Tested Logistic Regression, Random Forest, SVM, Neural Networks
