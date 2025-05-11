@@ -1,34 +1,4 @@
 # Credit-Card-Fraud-Detection-Using-a-Machine-Learning-Approach
-You're on the right track — this content is **informative and well-structured** for a README file, but it needs **some revisions** to meet the typical quality standards for a public GitHub repository.
-
----
-
-### ✅ What's good:
-
-* Covers all the essential sections: **Introduction, Dataset, Objective, Algorithms, References**
-* Shows you understand the **problem and solution approach**
-* Includes external **research references**, which adds credibility
-
----
-
-### ❗ What needs improvement:
-
-The current version has:
-
-* **Grammatical errors** and **awkward phrasing**
-* Some sections that are **too informal or unclear**
-* Misspelled words (e.g., "froud" → "fraud")
-* Unstructured formatting (e.g., bullets, headings, spacing)
-
----
-
-### ✅ Recommended Action: Rewrite with Clarity, Grammar, and Formatting
-
-I’ll provide a **cleaned-up and professional version** of your README that you can copy into GitHub:
-
----
-
-## 💳 Credit Card Fraud Detection: A Machine Learning Approach
 
 ### 1. Introduction
 
@@ -63,12 +33,6 @@ This is a **binary classification problem**, where the goal is to predict whethe
 ### 4. Selected Algorithms
 
 We evaluated and selected the following machine learning algorithms:
-
-#### ✅ Logistic Regression
-
-* Well-suited for binary classification
-* Performs well with large datasets
-* Outputs probability scores, which helps in understanding the model's confidence
 
 #### ✅ Random Forest
 
