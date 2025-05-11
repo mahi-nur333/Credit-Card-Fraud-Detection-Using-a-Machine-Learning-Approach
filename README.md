@@ -34,7 +34,7 @@ This is a **binary classification problem**, where the goal is to predict whethe
 
 We evaluated and selected the following machine learning algorithms:
 
-####✅ Logistic Regression
+#### ✅ Logistic Regression
 Well-suited for binary classification
 
 Performs well with large datasets
