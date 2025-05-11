@@ -83,5 +83,5 @@ We evaluated and selected the following machine learning algorithms:
 
 ### 7. Conclusion
 
-This project demonstrates the effectiveness of machine learning in detecting credit card fraud. Random Forest and Logistic Regression perform well on this dataset, with Random Forest showing high test accuracy. However, the difference between test and cross-validation scores indicates some overfitting, which should be addressed in future work.
+This project demonstrates the effectiveness of machine learning in detecting credit card fraud. Random Forest on this dataset, with Random Forest showing high test accuracy. However, the difference between test and cross-validation scores indicates some overfitting, which should be addressed in future work.
 
